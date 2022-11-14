@@ -1,0 +1,105 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.main{
+  background-image: url("https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+/* border: 1px solid teal; */
+background-repeat: no-repeat;
+overflow: hidden;
+/* padding: 20px; */
+/* background-size:cover; */
+background-size:cover;
+height: 800px;
+
+}
+
+.serchmain{
+    width:100%;
+    height: 100px;
+    /* background-color: #f2f2f2;///? */
+    outline: none;
+}
+#serc{
+    border: 1px solid transparent;
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 400px;
+    height: 29px;
+    border-radius: 6px 0px 0px 6px ; 
+    outline: none;
+    padding-left: 15px;
+}
+#but{
+  height: 31px;
+  margin-left: -3.9px;
+  border-radius: 0px 6px 6px 0px;
+  width: 100px;
+  background-color: #48484a;
+  color: white;
+}
+.mapouter{position:relative;text-align:right;height:500px;width:600px;}
+.gmap_canvas {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  overflow:hidden;background:none!important;height:400px;width:600px;}
+  
+.secnd{
+  display:flex;
+  justify-content:space-between;
+  margin-top:50px;
+}
+#data{
+  margin-left:100px;
+  text-align:center;
+  margin-top: 50px;
+  color: #f2f2f2;
+  height: 250px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#time{
+  color:orange;
+}
+#co{
+  line-height:40px;
+  font-weight: bold;
+  font-size:x-large;
+}
+#degree{
+  margin-top:20px;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+#degree>h3{
+  margin-top:47px;
+  font-size: x-large;
+  font-weight: bold;
+}
+#cloud{
+  font-weight:bold;
+}
+#hum{
+  display: flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+#map{
+  margin-right:30px;
+  
+}
+#for{
+  display:grid;
+  grid-template-columns:repeat(7,120px);
+  justify-content:center;
+  gap:20px;
+  margin-left:10;
+  /* background-color: red; */
+}
+#for>div{
+  text-align: center;
+  color:white;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
